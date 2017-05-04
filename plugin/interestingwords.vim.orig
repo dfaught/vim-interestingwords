@@ -186,8 +186,19 @@ function! s:buildColors()
   if (s:hasBuiltColors)
     return
   endif
+<<<<<<< HEAD
+  if has('gui_running')
+    let ui = 'gui'
+    let wordColors = g:interestingWordsGUIColors
+  else
+    "let ui = 'cterm'
+    let ui = 'gui'
+    let wordColors = g:interestingWordsTermColors
+  endif
+=======
   let ui = s:uiMode()
   let wordColors = (ui == 'gui') ? g:interestingWordsGUIColors : g:interestingWordsTermColors
+>>>>>>> upstream/master
   if (exists('g:interestingWordsRandomiseColors') && g:interestingWordsRandomiseColors)
     " fisher-yates shuffle
     let i = len(wordColors)-1

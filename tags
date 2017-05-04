@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<Plug>InterestingWords	plugin/interestingwords.vim	/^      nnoremap <silent> <unique> <script> <Plug>InterestingWords$/;"	m
+<Plug>InterestingWords	plugin/interestingwords.vim	/^      vnoremap <silent> <unique> <script> <Plug>InterestingWords$/;"	m
+<Plug>InterestingWordsBackward	plugin/interestingwords.vim	/^      nnoremap <silent> <unique> <script> <Plug>InterestingWordsBackward$/;"	m
+<Plug>InterestingWordsClear	plugin/interestingwords.vim	/^      nnoremap <silent> <unique> <script> <Plug>InterestingWordsClear$/;"	m
+<Plug>InterestingWordsForeward	plugin/interestingwords.vim	/^      nnoremap <silent> <unique> <script> <Plug>InterestingWordsForeward$/;"	m
+<leader>K	plugin/interestingwords.vim	/^    nnoremap <silent> <leader>K :call UncolorAllWords()<cr>$/;"	m
+<leader>k	plugin/interestingwords.vim	/^    nnoremap <silent> <leader>k :call InterestingWords('n')<cr>$/;"	m
+<leader>k	plugin/interestingwords.vim	/^    vnoremap <silent> <leader>k :call InterestingWords('v')<cr>$/;"	m
+ColorWord	plugin/interestingwords.vim	/^function! ColorWord(word, mode)$/;"	f
+InterestingWords	plugin/interestingwords.vim	/^function! InterestingWords(mode) range$/;"	f
+N	plugin/interestingwords.vim	/^    nnoremap <silent> N :call WordNavigation(0)<cr>$/;"	m
+Random	plugin/interestingwords.vim	/^function! s:Random(n)$/;"	f
+UncolorAllWords	plugin/interestingwords.vim	/^function! UncolorAllWords()$/;"	f
+UncolorWord	plugin/interestingwords.vim	/^function! UncolorWord(word)$/;"	f
+WordNavigation	plugin/interestingwords.vim	/^function! WordNavigation(direction)$/;"	f
+buildColors	plugin/interestingwords.vim	/^function! s:buildColors()$/;"	f
+checkIgnoreCase	plugin/interestingwords.vim	/^function! s:checkIgnoreCase(word)$/;"	f
+g:interestingWordsDefaultMappings	plugin/interestingwords.vim	/^    let g:interestingWordsDefaultMappings = 1$/;"	v
+g:interestingWordsGUIColors	plugin/interestingwords.vim	/^let g:interestingWordsGUIColors = exists('g:interestingWordsGUIColors') ? g:interestingWordsGUIColors : s:interestingWordsGUIColors$/;"	v
+g:interestingWordsTermColors	plugin/interestingwords.vim	/^let g:interestingWordsTermColors = exists('g:interestingWordsTermColors') ? g:interestingWordsTermColors : s:interestingWordsTermColors$/;"	v
+get_visual_selection	plugin/interestingwords.vim	/^function! s:get_visual_selection()$/;"	f
+getmatch	plugin/interestingwords.vim	/^function! s:getmatch(mid) abort$/;"	f
+markRecentlyUsed	plugin/interestingwords.vim	/^function! s:markRecentlyUsed(n)$/;"	f
+n	plugin/interestingwords.vim	/^    nnoremap <silent> n :call WordNavigation(1)<cr>$/;"	m
+nearest_group_at_cursor	plugin/interestingwords.vim	/^function! s:nearest_group_at_cursor() abort$/;"	f
+s:hasBuiltColors	plugin/interestingwords.vim	/^let s:hasBuiltColors = 0$/;"	v
+s:interestingModes	plugin/interestingwords.vim	/^let s:interestingModes = []$/;"	v
+s:interestingWords	plugin/interestingwords.vim	/^let s:interestingWords = []$/;"	v
+s:interestingWordsGUIColors	plugin/interestingwords.vim	/^let s:interestingWordsGUIColors = ['#aeee00', '#ff0000', '#0000ff', '#b88823', '#ffa724', '#ff2c4b']$/;"	v
+s:interestingWordsTermColors	plugin/interestingwords.vim	/^let s:interestingWordsTermColors = ['#aeee00', '#ff0000', '#0000ff', '#b88823', '#ffa724', '#ff2c4b']$/;"	v
+s:mids	plugin/interestingwords.vim	/^let s:mids = {}$/;"	v
+s:recentlyUsed	plugin/interestingwords.vim	/^let s:recentlyUsed = []$/;"	v
